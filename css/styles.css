@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.discountBar{
+.discountBar{  
     background-color: #1CD1B0;
     height: 38px;
     width: 100%;
@@ -16,6 +16,9 @@
     padding-top: 10px;
 }
 header{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
     background-color: #00669F;
     height: 101px;
     width: 100%;
@@ -45,8 +48,8 @@ header{
     background-image: url("../img/fondoHarley.png");
 }
 .cardImage{
-   height: 193px;
-   width: 300px;
+    height: 193px;
+    width: 300px;
     position: relative;
 }
 
